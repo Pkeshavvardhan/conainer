@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfunction(8)">click me</button>
+    <button onclick="clickhere()">click</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        function myfunction(x,y){
+            if (y===undefined){
+                y=4
+            }
+            document.write(x*y)
+
+        }
+        var a=2
+        function clickhere(){
+            var b=6
+document.getElementById("demo").innerHTML=a*b
+document.getElementById("demo1").innerHTML=b
+        }
+    document.getElementById("demo1").innerHTML=b
+    </script>
+</body>
+</html>
